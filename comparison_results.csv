@@ -1,0 +1,18 @@
+req_id,test_id,scenario,outcome_truth,message_truth,outcome_candidate,message_candidate,_merge,outcome_matches
+TEx_GWS_001,TEx_GWS_001_GLM_1,baseline,pass,,pass,,both,True
+TEx_GWS_002,TEx_GWS_002_GLM_1,baseline,pass,,fail,"Start command trigger occurred, but no running-state response arrived in time.",both,False
+TEx_GWS_003,TEx_GWS_003_GLM_1,scripted,fail,"High-temperature trigger occurred, but the cooling response was not observed.",pass,,both,False
+TEx_GWS_004,TEx_GWS_004_GLM_1,scripted,pass,,pass,,both,True
+TEx_GWS_005,TEx_GWS_005_GLM_1,scenario_n,pass,,error,Simulation did not converge.,both,False
+TEx_GWS_006,TEx_GWS_006_GLM_1,baseline,pass,,pass,,both,True
+TEx_GWS_006,TEx_GWS_006_GLM_1,scenario_n,pass,,pass,,both,True
+TEx_GWS_006,TEx_GWS_006_GLM_10,baseline,fail,"Low-pressure trigger occurred, but the pump did not start.",pass,,both,False
+TEx_GWS_006,TEx_GWS_006_GLM_2,scenario_n,pass,,fail,"Low-pressure trigger occurred, but the pump did not start.",both,False
+TEx_GWS_006,TEx_GWS_006_GLM_3,scenario_n,pass,,pass,,both,True
+TEx_GWS_006,TEx_GWS_006_GLM_4,scenario_n,pass,,pass,,both,True
+TEx_GWS_006,TEx_GWS_006_GLM_5,scenario_n,pass,,pass,,both,True
+TEx_GWS_006,TEx_GWS_006_GLM_6,scenario_n,pass,,pass,,both,True
+TEx_GWS_006,TEx_GWS_006_GLM_7,scenario_n,pass,,pass,,both,True
+TEx_GWS_006,TEx_GWS_006_GLM_8,scenario_n,pass,,pass,,both,True
+TEx_GWS_007,TEx_GWS_007_GLM_1,baseline,skip,The baseline scenario did not produce the overcurrent trigger.,skip,The baseline scenario did not produce the overcurrent trigger.,both,True
+TEx_GWS_007,TEx_GWS_007_GLM_10,baseline,skip,The baseline scenario did not produce the overcurrent trigger.,skip,The baseline scenario did not produce the overcurrent trigger.,both,True
